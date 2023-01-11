@@ -3,25 +3,25 @@ using namespace std;
 int main3()
 {
 	int score = 0;
-	cout << "ÇëÊäÈë¿¼ÊÔ·ÖÊý£º" << endl;
+	cout << "è¯·è¾“å…¥è€ƒè¯•åˆ†æ•°ï¼š" << endl;
 
 	cin >> score;
 
 	if (score > 600)
 	{
-		cout << "ÎÒ¿¼ÉÏÁËÒ»±¾´óÑ§" << endl;
+		cout << "æˆ‘è€ƒä¸Šäº†ä¸€æœ¬å¤§å­¦" << endl;
 	}
 	else if (score > 500)
 	{
-		cout << "ÎÒ¿¼ÉÏÁË¶þ±¾´óÑ§" << endl;
+		cout << "æˆ‘è€ƒä¸Šäº†äºŒæœ¬å¤§å­¦" << endl;
 	}
 	else if (score > 400)
 	{
-		cout << "ÎÒ¿¼ÉÏÁËÈý±¾´óÑ§" << endl;
+		cout << "æˆ‘è€ƒä¸Šäº†ä¸‰æœ¬å¤§å­¦" << endl;
 	}
 	else
 	{
-		cout << "ÎÒÎ´¿¼ÉÏ±¾¿Æ" << endl;
+		cout << "æˆ‘æœªè€ƒä¸Šæœ¬ç§‘" << endl;
 	}
 	system("pause");
 	return 0;
