@@ -2,7 +2,7 @@
 using namespace std;
 int main8()
 {
-	//����Ļ�д�ӡ0-9
+	//ÔÚÆÁÄ»ÖÐ´òÓ¡0-9
 	int num = 0;
 	while (num<=9)
 	{
