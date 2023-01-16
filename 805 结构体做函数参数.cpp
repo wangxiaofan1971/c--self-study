@@ -24,7 +24,7 @@ void printStudent2(student *stu)
 	cout << "子函数中 姓名：" << stu->name << " 年龄： " << stu->age << " 分数：" << stu->score << endl;
 }
 
-int main() {
+int main5() {
 
 	student stu = { "张三",18,100 };
 	//值传递
